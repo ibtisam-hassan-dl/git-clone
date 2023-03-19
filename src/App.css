@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  background-color: #f6f8fa;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 16px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e1e4e8;
 }
 
-.App-link {
-  color: #61dafb;
+.profile-image {
+  width: 75px;
+  height: 75px;
+  margin-right: 16px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-info h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.profile-info h2 {
+  font-size: 20px;
+  color: #586069;
+  margin-bottom: 8px;
+}
+
+.profile-info p {
+  font-size: 16px;
+  color: #586069;
+  margin-bottom: 16px;
+}
+
+.profile-info ul {
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.profile-info li {
+  font-size: 16px;
+  color: #586069;
+  margin-bottom: 4px;
+}
+
+.profile-info li a {
+  color: #0366d6;
+}
+
+section {
+  display: flex;
+  padding: 16px;
+}
+
+.repositories {
+  flex: 1;
+  margin-right: 16px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.repositories h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: #f6f8fa;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.repositories ul {
+  list-style: none;
+  padding: 16px;
+}
+
+.repositories li {
+  font-size: 16px;
+  color: #586069;
+  margin-bottom: 8px;
+}
+
+.repositories li a {
+  color: #0366d6;
+}
+
+.followers {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.followers h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: #f6f8fa;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.followers ul {
+  list-style: none;
+  padding: 16px;
+}
+
+.followers li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #586069;
+  margin-bottom: 8px;
+}
+
+.followers li img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  border-radius: 50%;
+  overflow: hidden;
 }

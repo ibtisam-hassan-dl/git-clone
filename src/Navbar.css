@@ -1,0 +1,83 @@
+#outerNav {
+  background-color: #24292f;
+  padding-left: 3%;
+  padding-right: 3%;
+  height: 4.5rem;
+}
+#innerNav {
+  height: 3000px;
+}
+#logo {
+  width: 2.5%;
+  margin-bottom: 2px;
+  margin-right: 15px;
+}
+
+.navButtons {
+  color: aliceblue;
+  margin-right: 5px;
+}
+
+.input {
+  background-color: #24292f;
+  text-decoration-color: aliceblue;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+.buttons {
+  color: white;
+}
+.buttons-signup {
+  color: white;
+  border-color: blanchedalmond;
+}
+
+/* for the navbar file */
+
+.navBar {
+  background-color: white;
+  border-bottom: #bcbcbc 0.1px solid;
+  margin-bottom: 2%;
+}
+
+.btn-me {
+  height: 100%;
+}
+.btn-me:hover {
+  background-color: rgb(201, 201, 201);
+  color: #000000;
+}
+.icons {
+  padding-bottom: 2px;
+  min-height: 100%;
+  margin-right: 5px;
+}
+
+.blank-div {
+  height: 30px;
+}
+
+.badge-span {
+  color: #24292f;
+  background-color: #d9d9d9;
+  margin-left: 3px;
+}
+
+.profileImg {
+  width: 300px;
+  margin-left: 0;
+  box-shadow: 0 0 0 1px rgb(212, 212, 212);
+}
+
+.profile-div {
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.repo-div {
+  margin-right: 50px;
+}
