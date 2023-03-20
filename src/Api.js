@@ -139,30 +139,6 @@ function User() {
                   ))}
                 </div>
               </div>
-              {/* <h2 className="mb-3">Followers:</h2>
-              <ul className="list-unstyled">
-                {followers.nodes.map((follower) => (
-                  <li key={follower.login} className="media mb-3">
-                    <img
-                      src={follower.avatarUrl}
-                      alt={follower.name}
-                      className="mr-3 rounded-circle"
-                      width="64"
-                      height="64"
-                    />
-                    <div className="media-body">
-                      <h5 className="mt-0 mb-1">{follower.name}</h5>
-                      <a
-                        href={`https://github.com/${follower.login}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        @{follower.login}
-                      </a>
-                    </div>
-                  </li>
-                ))}
-              </ul> */}
             </div>
           </div>
         </div>
